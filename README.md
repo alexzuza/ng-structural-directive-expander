@@ -1,1 +1,1 @@
-# ng-structural-directive-expander
+# Angular Structural directive expander
