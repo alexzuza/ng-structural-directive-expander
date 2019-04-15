@@ -1,0 +1,1 @@
+# ng-structural-directive-expander
