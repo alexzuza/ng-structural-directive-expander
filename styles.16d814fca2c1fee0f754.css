@@ -14,7 +14,9 @@ body {
   background: linear-gradient(145deg, #0d47a1, #42a5f5);
   height: 100vh;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: center;
+}
 
 .input {
   display: inline-block;
