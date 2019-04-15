@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(145deg, #0d47a1, #42a5f5);
+  height: 100vh;
+  display: flex;
+  align-items: center; }
+
+.input {
+  display: inline-block;
+  padding: 10px 16px;
+  line-height: 40px;
+  font-size: 38px;
+  outline: none;
+  border-radius: 9px;
+  background: #f1f1f1; }
+
+.container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 30px;
+  padding: 3em;
+  background: #fff;
+  border-radius: 9px;
+  text-align: center;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.logo {
+  position: absolute;
+  top: -70px;
+  left: 10px;
+  width: 125px;
+  height: 132px; }
+
+.templates-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  font-size: 24px; }
+  .templates-container > div {
+    margin-top: 2em;
+    margin-right: 2em;
+    line-height: 30px;
+    padding: 1em;
+    background: #f1f1f1;
+    border-radius: 9px; }
+
+.directive-output {
+  margin-top: 24px;
+  text-align: left; }
+  .directive-output > code {
+    display: block;
+    background: #f1f1f1;
+    padding: 24px;
+    line-height: 22px;
+    border-radius: 9px;
+    border: .5px solid #dbdbdb; }
+
+code, pre {
+  white-space: pre-wrap;
+  font-family: Arial; }
+
+.str {
+  color: #800; }
+
+.kwd {
+  color: #00f; }
+
+.com {
+  color: #060; }
+
+.typ {
+  color: red; }
+
+.lit {
+  color: #08c; }
+
+.clo, .opn, .pun {
+  color: #660; }
+
+.tag {
+  color: #008; }
+
+.atn {
+  color: #606; }
+
+.atv {
+  color: #800; }
+
+.dec, .var {
+  color: #606; }
+
+.fun {
+  color: red; }
+
+.pln {
+  color: #000; }
+
+@media (min-width: 1000px) {
+  .container {
+    margin: 0 auto; } }
+
